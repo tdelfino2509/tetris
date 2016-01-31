@@ -1,0 +1,29 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tetris",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp build",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdelfino2509/tetris.git"
+  },
+  "author": "Josue Vicioso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdelfino2509/tetris/issues"
+  },
+  "homepage": "https://github.com/tdelfino2509/tetris",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
